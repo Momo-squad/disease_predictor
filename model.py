@@ -6,6 +6,7 @@ import os
 from numpy import asarray
 from PIL import Image
 from tensorflow.keras.preprocessing.image import img_to_array
+# Just for commit
 os.chdir(os.path.dirname(__file__))
 
 model = pickle.load(open("/run/media/bb/NotNSFW/Code/still_learning_ML/disease_predictor/venv/dis_classify.pkl", 'rb'))
